@@ -7,7 +7,7 @@ username = "shahbaz"
 password = "9960180596"
 host = "localhost"
 port = 3306
-database = "ipsos"
+database = "startup"
 
 engine = create_engine(f"mysql+pymysql://{username}:{password}@{host}:{port}/{database}")
 
